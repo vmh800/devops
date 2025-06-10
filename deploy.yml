@@ -10,5 +10,5 @@
 
     - name: Copy the artifact to the deployment directory
       copy:
-        src: /var/lib/jenkins/workspace/mvn2/target/HelloMaven-1.0-SNAPSHOT.jar  # Replace with actual file
-        dest: /opt/deploy/likitha.jar
+        src: /var/lib/jenkins/workspace/mvn2/target/devops1-1.0-SNAPSHOT.jar  # Replace with actual file
+        dest: /opt/deploy/devops1.jar
