@@ -12,7 +12,7 @@ steps:
   displayName: 'Set JAVA_HOME for JDK 11'
 
 # ✅ Maven build step
-- task: Maven@4
+- task: devops
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
